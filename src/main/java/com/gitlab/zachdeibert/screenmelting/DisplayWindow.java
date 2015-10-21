@@ -4,8 +4,6 @@ import java.awt.EventQueue;
 import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.Image;
-import java.awt.Rectangle;
-import java.awt.Toolkit;
 import java.util.Random;
 
 final class DisplayWindow extends Frame
@@ -45,7 +43,6 @@ final class DisplayWindow extends Frame
     DisplayWindow()
     {
         setAlwaysOnTop(true);
-        setBounds(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
         setFocusable(false);
         setResizable(false);
         setTitle("");
